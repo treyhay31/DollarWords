@@ -1,6 +1,0 @@
-c:\users\trey.hayden.ets\documents\visual studio 2015\Projects\DollarWords\DollarWords\bin\Debug\DollarWords.dll.config
-c:\users\trey.hayden.ets\documents\visual studio 2015\Projects\DollarWords\DollarWords\bin\Debug\DollarWords.dll
-c:\users\trey.hayden.ets\documents\visual studio 2015\Projects\DollarWords\DollarWords\bin\Debug\DollarWords.pdb
-c:\users\trey.hayden.ets\documents\visual studio 2015\Projects\DollarWords\DollarWords\obj\Debug\DollarWords.csprojResolveAssemblyReference.cache
-c:\users\trey.hayden.ets\documents\visual studio 2015\Projects\DollarWords\DollarWords\obj\Debug\DollarWords.dll
-c:\users\trey.hayden.ets\documents\visual studio 2015\Projects\DollarWords\DollarWords\obj\Debug\DollarWords.pdb
