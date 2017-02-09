@@ -2,11 +2,17 @@
 
 DollarWords is a small project that assigns a numerical value to each character in the alphabet (a = 1, b = 2, ... z = 26). 
 
-The projects checks for words whose value is 100 when calculating the sum of each character and prints them to the screen.
+The project checks for words whose value is 100 when summing its characters and prints them to the screen.
 
-Sharp, for instance has a value of (s + h + a + r + p) => (19 + 8 + 1 + 18 + 16) = 62.
+Sharp, for instance has a value of 62.
+
+`(s + h + a + r + p) => (19 + 8 + 1 + 18 + 16) = 62`
 
 ## Getting Started
+
+You can find a sample word file here: https://gist.github.com/treyhay31/720cbf124050438f91e0a8e94575f909
+
+The project expects that the word file is located in `C:\testing\words\words.txt`
 
 Clone the project:
 
@@ -24,8 +30,6 @@ Open solution.
 
 Build & Run!
 
-You can find the sample word file here: https://gist.github.com/treyhay31/720cbf124050438f91e0a8e94575f909
-
 ## Running the unit tests
 
 Run the tests in Visual Studio or enter:
@@ -34,7 +38,7 @@ Run the tests in Visual Studio or enter:
 
 Tests ensure that:
 
-1. Numbers return a value of zero
+* Numbers return a value of zero
 
 ```
 [Theory]
@@ -52,7 +56,7 @@ public void When_calculating_sum_on_numbers_IT_SHOULD_return_zero(string testDat
 }
 ```
 
-2. Punctuation returns a value of zero
+* Punctuation returns a value of zero
 
 ```
 [Theory]
@@ -70,7 +74,7 @@ public void When_calculating_sum_on_punctuation_IT_SHOULD_return_zero(string tes
 }
 ```
 
-3. Alphabetic characters return their index value
+* Alphabetic characters return their index value
 
 ```
 [Theory]

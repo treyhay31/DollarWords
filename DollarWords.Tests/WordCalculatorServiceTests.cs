@@ -12,7 +12,7 @@ namespace DollarWords.Tests
         [InlineData("999-123-1234")]
         [InlineData("$10.00")]
         [InlineData("3.14")]
-        public void When_calculating_sum_on_numbers_IT_should_return_zero(string testData)
+        public void When_calculating_sum_on_numbers_IT_SHOULD_return_zero(string testData)
         {
             //ARRANGE
             var sut = new WordCalculatorService();
@@ -30,7 +30,7 @@ namespace DollarWords.Tests
         [InlineData("'''")]
         [InlineData("\"\"\"")]
         [InlineData("-,'")]
-        public void When_calculating_sum_on_punctuation_IT_should_return_zero(string testData)
+        public void When_calculating_sum_on_punctuation_IT_SHOULD_return_zero(string testData)
         {
             //ARRANGE
             var sut = new WordCalculatorService();
